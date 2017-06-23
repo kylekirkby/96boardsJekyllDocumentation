@@ -74,7 +74,7 @@ To install Jekyll [Ruby-Lang.org](https://www.ruby-lang.org/en/documentation/ins
 1. `$ jekyll serve`
     Enter this command into your terminal to build the site locally and test on a localhost server. `http://localhost:4000` is the location where the Jekyll site will deploy to if it is set in the url and fullpath front matter variables. All errors in requesting images will result in a message being displayed on the terminal window that is running the server.
 2. `$ jekyll build`
-    * This is the Jekyll command which builds the site ready for deployment and outputs the generated static Jekyll website to the deploy folder path set in the config.yml file e.g. `\_deploy` default destination for a Jekyll site is `\_site`.
+    * This is the Jekyll command which builds the site ready for deployment and outputs the generated static Jekyll website to the deploy folder path set in the config.yml file e.g. `_deploy` default destination for a Jekyll site is `_site`.
 3. `$ jekyll build -V`
     * This command is just the same as `$ jekyll build` but you can see a more Verbose approach to how the site is being generated in the build.
 4. `$ jekyll serve -V`
