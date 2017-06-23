@@ -4,7 +4,7 @@
 
 ## Adding a product to the site.
 
-### Create new folder for product
+### 1. New Product Folder Structure <a name="product-folder-structure"></a>
 In order to add a new product to the site first you must navigate to the `_product` Jekyll collection which is located in the root of the site. In this folder there are a few specification sub folders that you should be aware of.
 
 * CE
@@ -22,7 +22,7 @@ These are where you will add your new product folder. Depending on the product y
                 * newboardimage.png
             * README.md
 
-### Add the required front matter variables <a name="product-front-matter"></a>
+### 2. Product Front Matter <a name="product-front-matter"></a>
 Jekyll uses front matter, which is yaml structured data that sits at the front of Jekyll files. This describes the page in question through permalinks, titles and layouts etc. Below is a table of the required front matter for products.
 
 |    Front Matter Variable    |                Meaning and usage                           |
