@@ -20,11 +20,11 @@ This file holds the configuration settings for the Jekyll website such as site s
 | disqus              | This is a boolean value declaring whether disqus is enabled.       |
 | disqus_shortname    | This is the shortname that disqus uses to show comments.           |
 | url                 | If you are wanting to deploy the site to somewhere otherthan localhost then change this variable to the FQDN of where you are deploying to e.g https://www.96boards.org - note there is no trailing slash here.         |
-| title               | |
-| title               | |
-| title               | |
-| title               | |
-| title               | |
+| exclude             | These are files that are excluded from the build of Jekyll. You can use this if you want to speed up the site generation. For example, if you are only editing the _documentation section of the website simply exclude the other content folders and build with just the _documentation content. |
+| google-tag-manager  | This is a site variable which controls the output of Google Tag Manager for use in the China site build which does not allow gtm to be used. |
+| social              | This is a site variable that is required by [Jekyll SEO Tag Manager](https://github.com/jekyll/jekyll-seo-tag) which is optional but allows you to output more relevant social media meta tags. |
+| twitter             | This is also used by the [Jekyll SEO Tag Manager](https://github.com/jekyll/jekyll-seo-tag)|
+| github_username, linkedin_username, google_plus_username, facebook_username, youtube_username and twitter_username | These are used for the footer social media links. |
 
 
 ## Jekyll Commands
