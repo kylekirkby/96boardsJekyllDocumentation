@@ -12,7 +12,7 @@ trying to build the 96boards site. Before you build the site use the following s
 4. `$ jekyll serve -V`
 
 5. `$ jekyll build --config _config.yml`
-This is and optional command that may come in useful when changing the configuration of the Jekyll site. This just allows any other config.yml files to be easily swapped in.
+    This is and optional command that may come in useful when changing the configuration of the Jekyll site. This just allows any other config.yml files to be easily swapped in.
 
 ## Dependencies
 ### 1. Ruby
