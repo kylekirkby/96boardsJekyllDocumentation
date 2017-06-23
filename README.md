@@ -2,7 +2,7 @@
 The 96boards website is built using Jekyll, a static website generator based on Ruby, which allows the site to be more responsive and increase the performance of the site.
 # Table of Contents
 1. [Jekyll Deployment](#Jekyll-Deployment)
-    1. [\_config.yml setup](##\_config.yml)
+    1. [\_config.yml setup](##\_config.yml-setup)
     2. [96 boards Dependencies](##96boards dependencies)
     3. [Jekyll Dependencies](##Jekyll Dependencies)
         1. [Ruby](### 1. Ruby)
@@ -13,11 +13,11 @@ The 96boards website is built using Jekyll, a static website generator based on 
 2. [Jekyll Assets](# Jekyll Assets)
 3. [Website Content](# Website Content)
 
-# Jekyll Deployment
+# Jekyll-Deployment
 Jekyll uses Ruby to generate the static website so having Ruby installed is a must if you are
 trying to build the 96boards site. Before you build the site use the following steps to make sure your environment is setup for a Jekyll build.
 
-## \_config.yml setup
+## \_config.yml-setup
 This file holds the configuration settings for the Jekyll website such as site source folder path and the site destination path. You can find the Jekyll official documentation of configuration [here](https://jekyllrb.com/docs/configuration/).  
 
 |    Config Option    |                        Meaning and usage                           |
