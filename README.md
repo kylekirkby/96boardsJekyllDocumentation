@@ -14,7 +14,7 @@ This file holds the configuration settings for the Jekyll website such as site s
 | permalink           | This is the permalink for blog posts on the site.                  |
 | title               | This is the title of the website for use in the head.html include. |
 | encoding            | This is simply the encoding jekyll uses when building site pages.  |
-| description         | The description of the website for use in the meta description etc.|
+| description         | The description of the website for use in the meta description etc. Also disables custom plugins and ignores symbolic links.|
 | safe                | This is the site wide kill switch of safe mode on a Jekyll website.|
 | search-label        | This is the search label used in the search.linar.org params.      |
 | disqus              | This is a boolean value declaring whether disqus is enabled.       |
