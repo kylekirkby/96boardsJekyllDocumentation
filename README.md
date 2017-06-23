@@ -7,6 +7,7 @@ trying to build the 96boards site. Before you build the site use the following s
 
 ## \_config.yml
 This file holds the configuration settings for the Jekyll website such as site source folder path and the site destination path.
+
 |    Config Option    |                        Meaning and usage                           |
 |---------------------|:------------------------------------------------------------------:|
 | destination         | This is the folder the site will be compiled to.                   |
