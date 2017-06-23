@@ -1,10 +1,10 @@
 # 96boards Jekyll Documentation
 The 96boards website is built using Jekyll, a static website generator based on Ruby, which allows the site to be more responsive and increase the performance of the site.
 # Table of Contents
-1. [Jekyll Deployment](# Jekyll Deployment)
-    1. [\_config.yml setup](## \_config.yml)
-    2. [96 boards Dependencies](## 96boards dependencies)
-    3. [Jekyll Dependencies](## Jekyll Dependencies)
+1. [Jekyll Deployment](#Jekyll Deployment)
+    1. [\_config.yml setup](##\_config.yml)
+    2. [96 boards Dependencies](##96boards dependencies)
+    3. [Jekyll Dependencies](##Jekyll Dependencies)
         1. [Ruby](### 1. Ruby)
             1. [Install Ruby](#### Install Ruby)
         2. [Jekyll](### 2. Jekyll)
