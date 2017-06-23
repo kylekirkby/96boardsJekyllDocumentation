@@ -8,13 +8,19 @@ trying to build the 96boards site. Before you build the site use the following s
 ## Dependencies
 ### 1. Ruby
 `$ ruby -v`
+
 This will show you the current version of Ruby that you have installed on your machine. We are using the ruby version 2.4.0 (ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin16]). This version may well change in the future development of this site but you can always find the version being currently used in the [Gemfile](https://stash.git.linaro.org/projects/MAR/repos/96boards.org-static/browse/Gemfile)
+
 #### Install
 To install ruby use your favourite package manager on your host OS or follow the instructions on [Ruby-Lang.org](https://www.ruby-lang.org/en/documentation/installation/)
 
+### 2. Jekyll
+`$ jekyll -v`
 
-2. `$ jekyll -v`
 This command, once executed, will display the current version of Jekyll you have installed. We are using `jekyll 3.4.3` but this may change in the future so it may be useful to note that you can find the current version actively being used in the [Gemfile](https://stash.git.linaro.org/projects/MAR/repos/96boards.org-static/browse/Gemfile) under `gem "jekyll", "3.4.3"`.
+
+#### Install
+To install Jekyll [Ruby-Lang.org](https://www.ruby-lang.org/en/documentation/installation/)
 
 
 # Resources
