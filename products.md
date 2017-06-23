@@ -38,7 +38,7 @@ Jekyll uses front matter, which is yaml structured data that sits at the front o
 | description                 | This is the description of the page used in the meta description tag |
 
 
-# Product Front Matter Example <a name="product-example-front-matter"></a>
+#### Product Front Matter Example <a name="product-example-front-matter"></a>
 ```
 ---
 title: Bubblegum-96
