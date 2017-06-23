@@ -6,7 +6,7 @@ Jekyll uses Ruby to generate the static website so having Ruby installed is a mu
 trying to build the 96boards site. Before you build the site use the following steps to make sure your environment is setup for a Jekyll build.
 
 ## \_config.yml
-This file holds the configuration settings for the Jekyll website such as site source folder path and the site destination path.
+This file holds the configuration settings for the Jekyll website such as site source folder path and the site destination path. You can find the Jekyll official documentation of configuration [here](https://jekyllrb.com/docs/configuration/).  
 
 |    Config Option    |                        Meaning and usage                           |
 |---------------------|:------------------------------------------------------------------:|
