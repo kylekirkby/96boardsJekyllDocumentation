@@ -1,8 +1,13 @@
 # 96boards Products
 
+1. [Adding a product](#adding-a-product)
+    1. [New Product Folder Structure](#product-folder-structure)
+    2. [Product Front Matter](#product-front-matter)
+        1. [Example Front Matter](#product-example-front-matter)
+
 96boards products are now stored in the Jekyll collection `_product`. The content of this file is the markdown displayed on the product page on the website. The permalink however relates to an entry in the database  - `_data/product_db.yml` which then contains multiple variables which describe each product uniquely and is then output through liquid in site pages.
 
-## Adding a product to the site.
+## Adding a product to the site. <a name="adding-a-product"></a>
 
 ### 1. New Product Folder Structure <a name="product-folder-structure"></a>
 In order to add a new product to the site first you must navigate to the `_product` Jekyll collection which is located in the root of the site. In this folder there are a few specification sub folders that you should be aware of.
@@ -33,7 +38,7 @@ Jekyll uses front matter, which is yaml structured data that sits at the front o
 | description                 | This is the description of the page used in the meta description tag |
 
 
-
+# Product Front Matter Example <a name="product-example-front-matter"></a>
 ```
 ---
 title: Bubblegum-96
@@ -44,4 +49,4 @@ description: |-
 ---
 ```
 
-This is an example of the front matter used in the BubbleGum 96 board page.
+This is an example of the front matter used in the [BubbleGum 96](http://www.96boards.org/product/bubblegum-96/) board page.
