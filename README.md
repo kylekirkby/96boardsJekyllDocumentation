@@ -1,11 +1,23 @@
 # 96boards Jekyll Documentation
 The 96boards website is built using Jekyll, a static website generator based on Ruby, which allows the site to be more responsive and increase the performance of the site.
+# Table of Contents
+1. [Jekyll Deployment](# Jekyll Deployment)
+    1. [\_config.yml setup](## \_config.yml)
+    2. [96 boards Dependencies](## 96boards dependencies)
+    3. [Jekyll Dependencies](## Jekyll Dependencies)
+        1. [Ruby](### 1. Ruby)
+            1. [Install Ruby](#### Install Ruby)
+        2. [Jekyll](### 2. Jekyll)
+            1. [Install Jekyll](#### Install Jekyll)
+    4. [Jekyll Commands](## Jekyll Commands)
+2. [Jekyll Assets](# Jekyll Assets)
+3. [Website Content](# Website Content)
 
 # Jekyll Deployment.
 Jekyll uses Ruby to generate the static website so having Ruby installed is a must if you are
 trying to build the 96boards site. Before you build the site use the following steps to make sure your environment is setup for a Jekyll build.
 
-## \_config.yml
+## \_config.yml setup
 This file holds the configuration settings for the Jekyll website such as site source folder path and the site destination path. You can find the Jekyll official documentation of configuration [here](https://jekyllrb.com/docs/configuration/).  
 
 |    Config Option    |                        Meaning and usage                           |
@@ -46,7 +58,7 @@ Jekyll list the dependencies over at their official installation documentation [
 
 This will show you the current version of Ruby that you have installed on your machine. The version we are using may well change in the future development of this site but you can always find the latest version being currently used in the [Gemfile](https://stash.git.linaro.org/projects/MAR/repos/96boards.org-static/browse/Gemfile)
 
-#### Install
+#### Install Ruby
 To install ruby use your favourite package manager on your host OS or follow the instructions on [Ruby-Lang.org](https://www.ruby-lang.org/en/documentation/installation/)
 
 ### 2. Jekyll
@@ -54,7 +66,7 @@ To install ruby use your favourite package manager on your host OS or follow the
 
 This command, once executed, will display the current version of Jekyll you have installed. We are using `jekyll 3.4.3` but this may change in the future so it may be useful to note that you can find the current version actively being used in the [Gemfile](https://stash.git.linaro.org/projects/MAR/repos/96boards.org-static/browse/Gemfile) under `gem "jekyll", "3.4.3"`.
 
-#### Install
+#### Install Jekyll
 To install Jekyll [Ruby-Lang.org](https://www.ruby-lang.org/en/documentation/installation/)
 
 
@@ -72,7 +84,7 @@ To install Jekyll [Ruby-Lang.org](https://www.ruby-lang.org/en/documentation/ins
 
 
 
-# Resources
+# Jekyll Assets
 The resources included are as follows:
 1. CSS (SASS)
 2. Javascript
