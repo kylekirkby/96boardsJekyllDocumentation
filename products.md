@@ -34,12 +34,14 @@ Jekyll uses front matter, which is yaml structured data that sits at the front o
 
 
 
-`---
+```
+---
 title: Bubblegum-96
 layout: product-display-page
 permalink: /product/bubblegum-96/
 description: |-
     Bubblegum-96 Board based on Actions Semi S900 Processor
----`
+---
+```
 
 This is an example of the front matter used in the BubbleGum 96 board page.
