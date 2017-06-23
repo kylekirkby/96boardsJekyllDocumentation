@@ -7,6 +7,24 @@ trying to build the 96boards site. Before you build the site use the following s
 
 ## \_config.yml
 This file holds the configuration settings for the Jekyll website such as site source folder path and the site destination path.
+|    Config Option    |                        Meaning and usage                           |
+|---------------------|:------------------------------------------------------------------:|
+| destination         | This is the folder the site will be compiled to.                   |
+| permalink           | This is the permalink for blog posts on the site.                  |
+| title               | This is the title of the website for use in the head.html include. |
+| encoding            | This is simply the encoding jekyll uses when building site pages.  |
+| description         | The description of the website for use in the meta description etc.|
+| safe                | This is the site wide kill switch of safe mode on a Jekyll website.|
+| search-label        | This is the search label used in the search.linar.org params.      |
+| disqus              | This is a boolean value declaring whether disqus is enabled.       |
+| disqus_shortname    | This is the shortname that disqus uses to show comments.           |
+| url                 | If you are wanting to deploy the site to somewhere otherthan localhost then change this variable to the FQDN of where you are deploying to e.g https://www.96boards.org - note there is no trailing slash here.         |
+| title               | |
+| title               | |
+| title               | |
+| title               | |
+| title               | |
+
 
 ## Jekyll Commands
 1. `$ jekyll serve`
