@@ -3,15 +3,15 @@ The 96boards website is built using Jekyll, a static website generator based on 
 # Table of Contents
 1. [Jekyll Deployment](#jekyll-deployment)
     1. [\_config.yml setup](#config-setup)
-    2. [96 boards Dependencies](##96boards dependencies)
-    3. [Jekyll Dependencies](##Jekyll Dependencies)
-        1. [Ruby](### 1. Ruby)
-            1. [Install Ruby](#### Install Ruby)
-        2. [Jekyll](### 2. Jekyll)
-            1. [Install Jekyll](#### Install Jekyll)
-    4. [Jekyll Commands](## Jekyll Commands)
-2. [Jekyll Assets](# Jekyll Assets)
-3. [Website Content](# Website Content)
+    2. [96 boards Dependencies](#96boards-dependencies)
+    3. [Jekyll Dependencies](#jekyll-dependencies)
+        1. [Ruby](#ruby)
+            1. [Install Ruby](#install-ruby)
+        2. [Jekyll](#jekyll)
+            1. [Install Jekyll](#install-jekyll)
+    4. [Jekyll Commands](#jekyll-commands)
+2. [Jekyll Assets](#jekyll-assets)
+3. [Website Content](#website-content)
 
 # Jekyll Deployment <a name="jekyll-deployment"></a>
 Jekyll uses Ruby to generate the static website so having Ruby installed is a must if you are
@@ -38,13 +38,13 @@ This file holds the configuration settings for the Jekyll website such as site s
 | twitter             | This is also used by the [Jekyll SEO Tag Manager](https://github.com/jekyll/jekyll-seo-tag)|
 | github_username, linkedin_username, google_plus_username, facebook_username, youtube_username and twitter_username | These are used for the footer social media links. |
 
-## 96boards dependencies
+## 96boards dependencies <a name="96boards-dependencies"></a>
 
 1. Ruby Gems listed in Gemfile and \_config.yml
 
 The 96boards Jekyll based website has a few Gems that need to be installed before you can run the Jekyll site locally. In order to install these gems use `$ bundle install` which will install the gems listed in the Gemfile and the \_config.yml file. If you do not have `bundle` installed then download it using `$ gem install bundler`.
 
-## Jekyll Dependencies
+## Jekyll Dependencies <a name="jekyll-dependencies"></a>
 
 Jekyll list the dependencies over at their official installation documentation [here](https://jekyllrb.com/docs/installation/) but in general to run a Jekyll site you need:
 
@@ -53,24 +53,24 @@ Jekyll list the dependencies over at their official installation documentation [
 * bundler (Ruby Gem) e.g `$ gem install bundler`
 * GNU/Linux, Unix, or macOS machine
 
-### 1. Ruby
+### 1. Ruby <a name="ruby"></a>
 `$ ruby -v`
 
 This will show you the current version of Ruby that you have installed on your machine. The version we are using may well change in the future development of this site but you can always find the latest version being currently used in the [Gemfile](https://stash.git.linaro.org/projects/MAR/repos/96boards.org-static/browse/Gemfile)
 
-#### Install Ruby
+#### Install Ruby <a name="install-ruby"></a>
 To install ruby use your favourite package manager on your host OS or follow the instructions on [Ruby-Lang.org](https://www.ruby-lang.org/en/documentation/installation/)
 
-### 2. Jekyll
+### 2. Jekyll <a name="jekyll"></a>
 `$ jekyll -v`
 
 This command, once executed, will display the current version of Jekyll you have installed. We are using `jekyll 3.4.3` but this may change in the future so it may be useful to note that you can find the current version actively being used in the [Gemfile](https://stash.git.linaro.org/projects/MAR/repos/96boards.org-static/browse/Gemfile) under `gem "jekyll", "3.4.3"`.
 
-#### Install Jekyll
+#### Install Jekyll <a name="install-jekyll"></a>
 To install Jekyll [Ruby-Lang.org](https://www.ruby-lang.org/en/documentation/installation/)
 
 
-## Jekyll Commands
+## Jekyll Commands <a name="jekyll-commands"></a>
 1. `$ jekyll serve`
     Enter this command into your terminal to build the site locally and test on a localhost server. `http://localhost:4000` is the location where the Jekyll site will deploy to if it is set in the url and fullpath front matter variables. All errors in requesting images will result in a message being displayed on the terminal window that is running the server.
 2. `$ jekyll build`
@@ -84,13 +84,13 @@ To install Jekyll [Ruby-Lang.org](https://www.ruby-lang.org/en/documentation/ins
 
 
 
-# Jekyll Assets
+# Jekyll Assets <a name="jekyll-assets"></a>
 The resources included are as follows:
 1. CSS (SASS)
 2. Javascript
 3. Images
 
-# Website Content
+# Website Content <a name="website-content"></a>
 The following fall under website content:
 1. Products /products/
 2. Projects /projects/
@@ -99,5 +99,5 @@ The following fall under website content:
 5. Compliance /compliance/
 6. Specifications /specifications/
 
-## Products
+## Products <a name="products"></a>
 To add a product please visit [this page](products.md)
