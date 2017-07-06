@@ -94,7 +94,7 @@ The resources included are as follows:
 The following fall under website content:
 1. Products /products/
 2. Projects /projects/
-3. Blog Posts /blog/
+3. Blog Posts [/blog/](blog.md)
 4. About /about/
 5. Compliance /compliance/
 6. Specifications /specifications/
