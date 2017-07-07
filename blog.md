@@ -25,7 +25,7 @@ Media items are included using the media.html file will will generate a bootstra
 
 ## Code Highlighting
 
-The highlighter used in the site is [`rouge`](http://rouge.jneen.net). For a list of the language shortcodes that are supported currently go [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). In order to highlight your source code in blog posts you should use the shorthand in markdown. Below is an example of this:
+The highlighter used in the site is [`Rouge`](http://rouge.jneen.net). For a list of the language shortcodes that are supported currently go [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). In order to highlight your source code in blog posts you should use the shorthand in markdown. Below is an example of this:
 
 ```
     ```python
@@ -42,3 +42,38 @@ def newFunction(firstname, surname):
 ```
 
 Make sure your markdown is not indented at all otherwise it will not render properly.
+
+# Blog Post Front Matter Explained.
+
+|    Front Matter     |                        Meaning and usage                           |
+|---------------------|:------------------------------------------------------------------:|
+| title               | This is the title of the website for use in the head.html include. |
+| layout              | This is the layout to use for the post. If you don't know what layout to put then just use "post".  |
+| author              | This is the author of the blog post. In future updates a shortname will refer to a authors db.                 |
+| date                | This is the date of the post in this format - 2017-07-05 13:00:00+00:00             |
+| featured_image      | Name of the image which will be the main featured image on the blog post.           |
+| comments            | When this is set to true Disqus comments are displayed at the bottom of the post.   |
+| tags                | This is a yaml list of tags related to the post.                                    |
+
+
+An example of the front matter of a blog post:
+
+```yaml
+---
+layout: post
+title: Most Awesome Blog Post in the World.
+author: John Smith
+date: 2017-07-07 13:00:00+00:00
+featured_image: blog-feature-image.jpg
+comments: true
+tags:
+- 64-Bit
+- 96Boards
+- Aarch64
+- Android
+- ARM Arm32
+- Arm64
+- ARMv8
+---
+Your content goes here.
+```
