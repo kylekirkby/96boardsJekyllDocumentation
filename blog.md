@@ -34,10 +34,10 @@ In order to highlight your source code in blog posts you should use the shorthan
     ```
 ```
 Once rendered the above will look similiar to this:
-    ```python
-    def newFunction(firstname, surname):
-        name = firstname + surname
-        return name
-    ```
+```python
+def newFunction(firstname, surname):
+    name = firstname + surname
+    return name
+```
 
-Make sure your markdown is not indented other
+Make sure your markdown is not indented at all otherwise it will not render properly.
