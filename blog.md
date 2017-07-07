@@ -33,3 +33,9 @@ In order to highlight your source code in blog posts you should use the shorthan
             return name
     ```
 ```
+Once rendered the above will look similiar to this:
+```python
+    def newFunction(firstname, surname):
+        name = firstname + surname
+        return name
+```
