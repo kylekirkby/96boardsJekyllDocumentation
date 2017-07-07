@@ -24,7 +24,8 @@ Media items are included using the media.html file will will generate a bootstra
 ```
 
 ## Code Highlighting
-In order to highlight your source code in blog posts you should use the shorthand in markdown. Below is an example of this:
+
+The highlighter used in the site is [`rouge`](http://rouge.jneen.net). In order to highlight your source code in blog posts you should use the shorthand in markdown. Below is an example of this:
 
 ```
     ```python
