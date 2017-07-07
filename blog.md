@@ -9,21 +9,28 @@
 This Jekyll site is using Kramdown flavour markdown and also uses the rouge highlighter and a custom scss file in the \_assets/css folder.
 
 ## Images
-Images are included through Jekyll assets and the use of asset_path and the typical image include for markdown. Below are a couple of examples of image includes.
+Images are included using the image.html file. This is located in the \_includes folder. This file will generate the necessary markdown for an image that opens in a lightbox and is lazy loaded as users scroll down the blog post. Below is an example of how to include an image in your post.
 
-[![Image alt caption]({% asset_path "name-of-image.jpg" %}){:class="img-responsive"}](/assets/name-of-image.jpg)
+```
+{% include image.html name="name-of-your-specific-image.png" alt="This is the image alt tag which is also the lightbox caption." %}
+```
 
-The above example will create a hyperlinked image that links to the original image file and also displays the image as a bootstrap responsive image.
-
-![Image alt caption]({% asset_path "name-of-image.jpg" %}){:class="img-responsive"}
-
-The above is a basic example of a responsive image that is not linked.
+The above is a basic example of a responsive lightbox image include for use in your blog posts when you include an image.
 
 ## Media
-Media items are include using the media.html file will will generate a bootstrap responsive media element and include the supplied media_url as a source.
+Media items are included using the media.html file will will generate a bootstrap responsive media element and include the supplied media_url as a source. This can be used for Slideshare includes and youtube video includes; both of which will be displayed as a repsonsive full width element which is lazy loaded using the Lazy Sizes plugin.
+```
+{% include media.html media_url="https://www.youtube.com/embed/bbMp3puXkVg" %}
+```
 
-_media.html_
+## Code Highlighting
+In order to highlight your source code in blog posts you should use the shorthand in markdown. Below is an example of this:
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="lazyload embed-responsive-item" src="{{include.media_url}}"></iframe>
-</div>
+```
+\`\`\`python
+    def newFunction(firstname, surname):
+        name = firstname + surname
+        return name
+```
+
+```
