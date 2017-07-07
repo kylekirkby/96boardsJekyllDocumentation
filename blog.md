@@ -27,9 +27,9 @@ Media items are included using the media.html file will will generate a bootstra
 In order to highlight your source code in blog posts you should use the shorthand in markdown. Below is an example of this:
 
 ```
-    \`\`\`python
+    ```python
         def newFunction(firstname, surname):
             name = firstname + surname
             return name
-    \`\`\`
+    ```
 ```
